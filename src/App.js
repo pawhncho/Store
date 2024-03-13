@@ -13,13 +13,13 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='/' element={<Main API={API} />}>
-					<Route path='/' element={<Home API={API} />}>
+				<Route path='Store/' element={<Main API={API} />}>
+					<Route path='Store/' element={<Home API={API} />}>
 						<Route path='search/:keyword/' element={<Result API={API} />} />
 						<Route path='category/:uuid/products/' element={<VerticalProducts API={API} />} />
 					</Route>
-					<Route path='auth/' element={<Login />} />
-					<Route path='product/:uuid/' element={<Product API={API} />} />
+					<Route path='Store/auth/' element={<Login />} />
+					<Route path='Store/product/:uuid/' element={<Product API={API} />} />
 					<Route path='*' element={<div>Page Not Found</div>} />
 				</Route>
 			</Routes>
