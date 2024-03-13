@@ -20,7 +20,7 @@ function App() {
 					</Route>
 					<Route path='Store/auth/' element={<Login />} />
 					<Route path='Store/product/:uuid/' element={<Product API={API} />} />
-					<Route path='*' element={<div>Page Not Found</div>} />
+					<Route path='*' element={<Main API={API} />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
