@@ -1,0 +1,139 @@
+.login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.login .form {
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+}
+
+.login .form .navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 4%;
+	height: 10%;
+}
+
+.login .form .navbar .icon {
+	font-size: 1.5em;
+	color: #292B2C;
+}
+
+.login .form .label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4%;
+	height: 20%;
+}
+
+.login .form .label h1 {
+	font-size: 3em;
+	font-weight: 400;
+	color: #0275D8;
+}
+
+.login .form form {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 4%;
+	height: 60%;
+}
+
+.login .form form .username {
+	display: flex;
+	flex-direction: column;
+	padding: 2% 4%;
+}
+
+.login .form form .username input {
+	border: 0;
+	width: 90%;
+	border-radius: 0;
+	outline: 0;
+	padding: 5px;
+	font-size: 1em;
+	background-color: transparent;
+	color: #292B2C;
+}
+
+.login .form form .password {
+	display: flex;
+	flex-direction: column;
+	padding: 2% 4%;
+}
+
+.login .form form .password input {
+	border: 0;
+	width: 90%;
+	border-radius: 0;
+	outline: 0;
+	padding: 5px;
+	font-size: 1em;
+	background-color: transparent;
+	color: #292B2C;
+}
+
+.login .form form .input {
+	border-bottom: 1px solid #292B2C;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+.login .form form .input .icon {
+	font-size: 1.2em;
+	color: #292B2C;
+	margin-right: 5px;
+}
+
+.login .form form small {
+	font-size: 0.8em;
+	display: flex;
+	justify-content: flex-end;
+	color: #0275D8;
+	padding: 0 4%;
+}
+
+.login .form form .submit {
+	display: flex;
+	flex-direction: column;
+	padding: 4%;
+	margin-top: 4%;
+}
+
+.login .form form .submit button {
+	border: 0;
+	outline: 0;
+	padding: 4%;
+	border-radius: 2em;
+	font-size: 1em;
+	font-weight: 400;
+	background-color: #0275D8;
+	box-shadow: 0em 0.3em 1em -0.2em #808080;
+	color: #F7F7F7;
+}
+
+.login .form .link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4%;
+	height: 10%;
+}
+
+.login .form .link p {
+	font-size: 0.9em;
+	font-weight: 500;
+	background-color: transparent;
+	color: #0275D8;
+	margin: 0;
+}

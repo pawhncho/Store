@@ -1,0 +1,16 @@
+aside.alert {
+	z-index: 2;
+	background-color: transparent;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	margin: 0;
+}
+
+aside.alert p {
+	font-size: 0.9em;
+	font-weight: 500;
+	margin: 0;
+	padding: 4%;
+	box-shadow: 0em 0em 1.5em 0em #808080;
+}

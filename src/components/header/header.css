@@ -1,0 +1,18 @@
+header {
+	background-color: transparent;
+	margin: 0;
+	margin: 4%;
+}
+
+header nav {
+	background-color: #FFFFFF;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header nav .icon {
+	color: #808080;
+	font-size: 1.5em;
+}

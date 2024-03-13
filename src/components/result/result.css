@@ -1,0 +1,78 @@
+a {
+	text-decoration: none;
+}
+
+.results {
+	padding: 4%;
+	height: 50%;
+}
+
+.results .label h2 {
+	font-size: 1.4em;
+	font-weight: 400;
+	color: #292B2C;
+}
+
+.results .products {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.results .products .result {
+	display: flex;
+	justify-content: space-between;
+	background-color: #F7F7F7;
+	border-radius: 1em;
+	box-shadow: 0em 0.2em 1em -0.6em #808080;
+	margin-top: 4%;
+}
+
+.results .products .result img {
+	width: 35%;
+	background-color: transparent;
+	mix-blend-mode: multiply;
+	padding: 2%;
+}
+
+.results .products .result .detail {
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 2%;
+}
+
+.results .products .result .detail .name {
+	font-size: 1em;
+	font-weight: 400;
+	color: #808080;
+}
+
+.results .products .result .detail .price {
+	font-size: 0.95em;
+	font-weight: 700;
+	color: #808080;
+}
+
+.results .products .result .heart {
+	width: 10%;
+	display: flex;
+	align-items: center;
+	padding: 2%;
+}
+
+.results .products .result .heart .icon {
+	font-size: 1.5em;
+	color: #808080;
+}
+
+.results .products p.no-result {
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #808080;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+}

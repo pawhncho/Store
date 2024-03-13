@@ -1,0 +1,89 @@
+.product .navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 4%;
+}
+
+.product .navbar .icon {
+	font-size: 1.5em;
+	color: #292B2C;
+}
+
+.product .image {
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.product .image img {
+	width: 100%;
+	mix-blend-mode: multiply;
+	background-color: transparent;
+}
+
+.product .details {
+	padding: 4%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.product .details h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.4em;
+	font-weight: 400;
+	color: #292B2C;
+}
+
+.product .details p {
+	margin: 0;
+	padding: 0;
+	font-size: 1.1em;
+	font-weight: 500;
+	color: #292B2C;
+}
+
+.product .buttons {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FFFFFF;
+}
+
+.product .buttons .buy {
+	width: 80%;
+	padding: 4%;
+}
+
+.product .buttons .buy button.buy {
+	font-size: 0.9em;
+	font-weight: 400;
+	border: 0.5px solid #0275D8;
+	padding: 20px;
+	border-radius: 1em;
+	color: #F7F7F7;
+	background-color: #0275D8;
+	box-shadow: 0em 0.3em 1em -0.6em #808080;
+}
+
+.product .buttons .cart {
+	padding: 4%;
+}
+
+.product .buttons .cart button.cart {
+	border: 0.5px solid #0275D8;
+	padding: 20px;
+	border-radius: 1em;
+	background-color: transparent;
+	box-shadow: 0em 0.3em 1em -0.6em #808080;
+}
+
+.product .buttons .cart button.cart .icon {
+	font-size: 1.5em;
+	color: #0275D8;
+}
